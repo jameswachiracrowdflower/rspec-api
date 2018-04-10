@@ -29,8 +29,8 @@ Gem::Specification.new do |spec|
 
   # For local
   spec.add_development_dependency 'rack-test'
-  spec.add_development_dependency 'activerecord', '>= 4.0'
-  spec.add_development_dependency 'railties', '>= 4.0'
+  spec.add_development_dependency 'activerecord'
+  spec.add_development_dependency 'railties'
   spec.add_development_dependency 'rspec-rails'
   spec.add_development_dependency 'sqlite3'
   spec.add_development_dependency 'kaminari' # add pagination to models/controllers
